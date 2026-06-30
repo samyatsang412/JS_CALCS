@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(228, 164, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100hv;
+}
+.container{
+    background-color: rgb(233, 143, 158);
+    padding:30px 40px;
+    border-radius:10px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0 4px 0px rgb(0,0,0,0.2);
+}
+label{
+    display:block;
+    margin-bottom:5px;
+    color: #0f0e0e;
+}
+.input-group{
+    margin-bottom: 15px;
+}
+input[type="text"]{
+    width:calc(100%-20px);
+    border:1px solid cornsilk;
+    border-radius:5px;
+    padding:10px;
+}
+h1{
+    color:#0f0e0e;
+    margin-bottom: 20px;
+}
